@@ -8,6 +8,14 @@ Python script that creates a list of users you follow that don't follow you back
 In order to install this dependencies you have to make sure you are on the InstaFollowList directory
 
 ## Run this on your terminal in order to install all dependencies
+
+This creates a virtual enviroment
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+This install all requirements
 ```
 pip install -r requirements.txt
 ```
@@ -23,7 +31,7 @@ Open the data.xlsx file on LibreOffice or Microsoft Excel, you will see 2 cells 
 ## Login on your instagram account on your favorite browser
 ## Go to your profile and click on following/followers
 
-You need to **copy the whole list of followers/following** as shown below
+You need to **COPY THE WHOLE LIST OF FOLLOWING / FOLLOWERS** as shown below
 
 ![How to copy](./media/media2.gif)
 
@@ -34,3 +42,11 @@ You need to **copy the whole list of followers/following** as shown below
 ### Paste the content on the corresponding cell **-WITHOUT FORMAT-**
 
 ![How to pase](./media/media3.gif)
+
+# Step 5
+
+Run "InstaFollowList.py" on your terminal using:
+```
+python3 InstaFollowList.py
+```
+This will create a file called **results.txt**, inside you will see the usernames of the people who don't follow you back
