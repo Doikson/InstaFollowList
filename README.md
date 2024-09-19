@@ -12,10 +12,18 @@ In order to install this dependencies you have to make sure you are on the Insta
 This creates a virtual enviroment
 ```
 python3 -m venv venv
+```
+To activate the virtual enviroment in Linux/macOS run this on your terminal:
+```
 source venv/bin/activate
 ```
 
-This install all requirements
+For Windows:
+```
+venv\Scripts\activate
+```
+
+Run this to install all requirements
 ```
 pip install -r requirements.txt
 ```
