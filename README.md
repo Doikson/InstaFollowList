@@ -28,7 +28,7 @@ Run this to install all requirements
 pip install -r requirements.txt
 ```
 # Step 2
-Open the data.xlsx file on LibreOffice or Microsoft Excel, you will see 2 cells called FOLLOWERS and FOLLOWING
+Open the data.xlsx file on LibreOffice or Microsoft Excel, you will see 2 cells called followers and following
 
 
 ![How LibreOffice Looks](./media/media1.png)
@@ -39,7 +39,7 @@ Open the data.xlsx file on LibreOffice or Microsoft Excel, you will see 2 cells 
 ## Login on your instagram account on your favorite browser
 ## Go to your profile and click on following/followers
 
-You need to **COPY THE WHOLE LIST OF FOLLOWING / FOLLOWERS** as shown below
+You need to **COPY THE WHOLE LIST OF following / followers** as shown below
 
 ![How to copy](./media/media2.gif)
 
@@ -47,7 +47,7 @@ You need to **COPY THE WHOLE LIST OF FOLLOWING / FOLLOWERS** as shown below
 **Remember to copy all the images aswell**
 
 # Step 4
-### Paste the content on the corresponding cell **-WITHOUT FORMAT-**
+### Paste the content on the corresponding cell **-WITHOUT FORMAT-** and SAVE THE FILE
 
 ![How to pase](./media/media3.gif)
 
